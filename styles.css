@@ -1,0 +1,269 @@
+
+#navbar {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 174, 255);
+}
+
+#navbar ul li a {
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+#navbar ul li a:hover {
+    /* display: flex; */
+    background-color: rgb(255, 251, 0);
+    border-radius: 10px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: rgb(200, 228, 241)   */
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+#char-container {
+    /* display: flex; */
+    /* padding: 5px; */
+    width: 100%;
+    height: auto;
+}
+
+details {
+    padding-left: 20px;
+    margin: 10px;
+}
+
+details #thor p {
+    padding-left: 20px;
+    margin: 10px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 2px 2px 2px 0px ;
+    /* border-radius: 10px; */
+}
+
+details #ironman p {
+    padding-left: 20px;
+    margin: 10px;
+    background-color: blanchedalmond;
+    box-shadow: 2px 2px 2px 0px;
+} 
+
+details #hulk p {
+    padding-left: 20px;
+    margin: 10px;
+    background-color: rgb(190, 190, 190);
+    box-shadow: 2px 2px 2px 0px;
+    border-radius: 10px;
+} 
+
+details #hawkeye p {
+    padding-left: 20px;
+    margin: 10px;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 2px 2px 2px 0px;
+    border-radius: 10px;
+} 
+
+details #captain p {
+    padding-left: 20px;
+    margin: 10px;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 2px 2px 2px 0px;
+    border-radius: 10px;
+} 
+
+details #blackwidow p {
+    padding-left: 20px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 05px 0px;
+    border-radius: 5px;
+} 
+
+
+
+#img-container {
+    margin: 0px;
+}
+
+.char-image {
+    width: 100%;
+    height: auto;
+}
+
+.avengersInfo {
+    padding: 15px;
+    margin: 7px;
+
+}
+
+.avengersInfo#thor {
+    background-color:rgb(24, 30, 36);
+    padding: 20px;
+    border: 1px solid red;
+
+} 
+
+.avengersInfo#ironman {
+    background-color:rgb(150, 17, 0);
+    padding: 20px;
+    border: 1px solid rgb(34, 15, 15);
+    box-shadow: 2px 2px 2px 2px rgb(214, 226, 106);
+    margin: 15=0px;
+
+} 
+
+.avengersInfo#hulk {
+    background-color:rgb(2, 71, 0);
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px 2px rgb(141, 184, 141);
+    margin: 10px;
+} 
+
+.avengersInfo#hawkeye {
+    background-color:rgb(56, 46, 131);
+    padding: 20px;
+} 
+
+.avengersInfo#captain {
+    background-color:rgb(28, 85, 170);
+    padding: 20px;
+} 
+
+.avengersInfo#blackwidow {
+    background-color:rgb(0, 0, 0);
+    padding: 20px;
+    border: 2px solid;
+} 
+
+
+.char-name {
+    color: white;
+    background-color: white ;
+    padding: 10px;
+    background-color: rgb(71, 71, 71);
+}
+
+.char-name#thor {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding: 10px;
+    background-color: rgb(15, 132, 241);
+    font-family: 'Thunder Nova Bold', sans-serif;
+}
+
+
+.char-name#ironman  {
+    background-color: rgb(228, 196, 16);
+
+} 
+
+.char-name#hulk {
+    background-color: rgb(4, 14, 6);
+} 
+
+.char-name#hawkeye {
+    background-color: rgb(0, 0, 0);
+} 
+.char-name#captain {
+    background-color: rgb(0, 0, 0);
+} 
+
+.char-name#blackwidow {
+    color: white;
+    background-color: rgb(12, 37, 49);
+} 
+
+.Bio {
+    background-color: white ;
+    padding: 10px;
+}
+
+.Bio#thor {
+    background-color: white ;
+    padding: 10px;
+    font-family: 'RichFont', sans-serif;
+}
+
+.Power-Stats {
+    background-color: white ;
+    padding: 10px;
+
+}
+
+.Power-Stats#thor {
+    background-color: rgb(207, 16, 16) ;
+    padding: 10px;
+    border: 1px solid rgb(53, 29, 29);
+    font-family: 'RichFont', sans-serif;
+
+}
+
+ul li {
+    list-style: none;
+    
+}
+
+
+.Power-Stats#ironman {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.938) ;
+    padding: 10px;
+}
+
+
+.Power-Stats#hulk {
+    color: black;
+    background-color: rgb(255, 255, 255) ;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.Power-Stats#hawkeye {
+    color: black;
+    background-color: rgb(255, 255, 255) ;
+    padding: 10px;
+    border: 1px solid;
+
+}
+
+.Power-Stats#captain {
+    color: black;
+    background-color: rgb(255, 255, 255) ;
+    padding: 10px;
+    border: 1px solid;
+
+}
+
+.Power-Stats#blackwidow {
+    color:black;
+    background-color: rgb(255, 255, 255) ;
+    padding: 10px;
+    border: 1px solid;
+}
+
+
+summary {
+ color: rgb(0, 0, 0);
+ font-size: 18px;
+ font-family: 'Thunder Nova Bold', sans-serif;
+ font-weight: 400;
+ padding-left: 10px;
+ margin: 0px;
+}
+
+
