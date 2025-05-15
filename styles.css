@@ -6,10 +6,23 @@
     background-color: rgb(0, 174, 255);
 }
 
+#navbar ul flex {
+    /* display: flex; */
+    /* margin: 10px;
+    padding: 20px; */
+    /* width: 100%; */
+    background-color: rgb(0, 174, 255);
+}
+
 #navbar ul li a {
     color: black;
     font-size: 20px;
     padding: 5px;
+    font-family: 'RichFont', sans-serif;
+    font-family: 'MatryoshkaL', sans-serif;
+    font-family: 'GlooGun', sans-serif;
+font-family: 'Soldier Laser Condensed', sans-serif;
+
 }
 
 
@@ -53,7 +66,6 @@ details #thor p {
     margin: 10px;
     background-color: rgb(253, 253, 253);
     box-shadow: 2px 2px 2px 0px ;
-    /* border-radius: 10px; */
 }
 
 details #ironman p {
@@ -93,9 +105,6 @@ details #blackwidow p {
     background-color: rgb(255, 255, 255);
     box-shadow: 1px 1px 05px 0px;
     background-color: rgb(165, 164, 164);
-
-    
-    /* border-radius: 5px; */
 } 
 
 
@@ -181,23 +190,34 @@ details #blackwidow p {
 
 .char-name#ironman  {
     background-color: rgb(228, 196, 16);
-
+    font-family: 'Thunder Nova Bold', sans-serif;
+    font-family: 'Thunder Nova Bold', sans-serif;
 } 
 
 .char-name#hulk {
     background-color: rgb(4, 14, 6);
+    font-family: 'Thunder Nova Bold', sans-serif;
+
 } 
 
 .char-name#hawkeye {
     background-color: rgb(0, 0, 0);
+    font-family: 'Thunder Nova Bold', sans-serif;
+
 } 
+
+
 .char-name#captain {
     background-color: rgb(0, 0, 0);
+    font-family: 'Thunder Nova Bold', sans-serif;
+
 } 
 
 .char-name#blackwidow {
     color: white;
     background-color: rgb(12, 37, 49);
+    font-family: 'Thunder Nova Bold', sans-serif;
+
 } 
 
 .Bio {
@@ -246,6 +266,8 @@ ul li {
     color: white;
     background-color: rgba(0, 0, 0, 0.938) ;
     padding: 10px;
+    font-family: 'RichFont', sans-serif;
+
 }
 
 
@@ -253,7 +275,8 @@ ul li {
     color: black;
     background-color: rgb(255, 255, 255) ;
     padding: 10px;
-    /* border: 1px solid; */
+    font-family: 'RichFont', sans-serif;
+
 }
 
 .Power-Stats#hawkeye {
@@ -261,6 +284,7 @@ ul li {
     background-color: rgb(255, 255, 255) ;
     padding: 10px;
     border: 1px solid;
+    font-family: 'RichFont', sans-serif;
 
 }
 
@@ -269,13 +293,15 @@ ul li {
     background-color: rgb(255, 255, 255) ;
     padding: 10px;
     border: 1px solid;
+    font-family: 'RichFont', sans-serif;
+
 }
 
 .Power-Stats#blackwidow {
     color:black;
     background-color: rgb(255, 255, 255) ;
     padding: 10px;
-    /* border: 2px solid white; */
+    font-family: 'RichFont', sans-serif;
 
 }
 
@@ -286,6 +312,8 @@ ul li {
     margin: 10px;
     background-color: rgb(165, 164, 164);
     box-shadow: 1px 1px 05px 0px;
+    font-family: 'RichFont', sans-serif;
+
 }
 
 
