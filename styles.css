@@ -121,8 +121,7 @@ details #blackwidow p {
 .avengersInfo#ironman {
     background-color:rgb(150, 17, 0);
     padding: 20px;
-    border: 1px solid rgb(34, 15, 15);
-    box-shadow: 2px 2px 2px 2px rgb(214, 226, 106);
+    border: 1px solid rgb(44, 44, 17);
     margin: 10px;
 
 } 
@@ -131,13 +130,13 @@ details #blackwidow p {
     background-color:rgb(2, 71, 0);
     padding: 20px;
     border: 1px solid rgb(0, 0, 0);
-    box-shadow: 2px 2px 2px 2px rgb(141, 184, 141);
     margin: 10px;
 } 
 
 .avengersInfo#hawkeye {
     background-color:rgb(56, 46, 131);
     padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
     margin: 10px;
 
 } 
@@ -145,6 +144,7 @@ details #blackwidow p {
 .avengersInfo#captain {
     background-color:rgb(28, 85, 170);
     padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
     margin: 10px;
 
 } 
@@ -253,8 +253,6 @@ ul li {
     background-color: rgb(255, 255, 255) ;
     padding: 10px;
     border: 1px solid;
-    margin: 15px;
-
 }
 
 .Power-Stats#blackwidow {
